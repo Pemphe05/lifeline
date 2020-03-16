@@ -1,0 +1,22 @@
+{%load static%}
+<!DOCTYPE html>
+
+[if gt IE 8]><--> <html class="no-js"> <![endif]
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'face/main.css'%}">
+</head>
+    <a href="{% url 'face:new'%}">New</a>
+    <a href="{% url 'face:home'%}">home</a>
+    <a href="{% url 'face:next'%}">next</a>
+    
+    
+    <body>
+        {%block content%} {%endblock content%}
+        <script src="" async defer></script>
+    </body>
+</html>

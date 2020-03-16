@@ -1,0 +1,12 @@
+{%extends "face/layout.html"%}
+{%block content%}
+   <h1 class="space-tag">We are here</h1>
+   <h3>Here</h3>
+
+   {% for item in items%}
+     {{item.quantity}}
+     {{item.title}}
+   {%endfor%}
+   
+   <p>This is a new page that i built</p>
+{%endblock content%}

@@ -1,0 +1,8 @@
+.space-tag{
+    background-color: aliceblue;
+    height: 200px;
+    width: fit-content;
+    flex-direction: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}

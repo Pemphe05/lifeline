@@ -1,0 +1,12 @@
+{%extends "face/layout.html"%}
+{%block content%}
+   <h1 class="space-tag">This is the next page</h1>
+   <h3>Here</h3>
+
+   {% for tree in trees%}
+     {{tree.quantity}}
+     {{tree.title}}
+   {%endfor%}
+   
+   <p>This is a another new page that i built</p>
+{%endblock content%}
